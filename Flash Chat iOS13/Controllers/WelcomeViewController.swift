@@ -19,7 +19,7 @@ class WelcomeViewController: UIViewController {
         titleLabel.text = ""
         var newTitle = ""
         var index = 1
-        
+   
         title?.forEach { char in
             DispatchQueue.main.asyncAfter(deadline: .now() + Double(index) * 0.3) {
                 newTitle += String(char)
